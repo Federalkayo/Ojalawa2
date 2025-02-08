@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<!-- Coding Of Oluwakayode -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpg" href="IMAGES/logo1.jpeg">
+    <link rel="icon" sizes="16x16" href="IMAGES/logo1.jpeg">
+    <link rel="icon" sizes="32x32" href="IMAGES/logo1.jpeg">
+    <link rel="icon" sizes="192x192" href="IMAGES/logo1.jpeg">
+    <link rel="apple-touch-icon" href="IMAGES/logo1.jpeg">
+    <title>Ojalawa</title>
+    <link href="https://fonts.googleapis.com/css?family=kaushan+Script|Poppings&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="Shop.css">
+</head>
+<body class="grab-cursor">
+    <section id="fixed">
+        <img src="IMAGES/logo2.jpeg" height="50px" class="logo" alt="logo">
+        <div class="fixed">
+            <div class="links"><a href="index.html">HOME</a></div>
+            <div class="links"><a href="#head">RETURN UP</a></div>
+            <div class="links"><a href="#container">STUCK</a></div>
+            <div class="links"><a href="#footer">MEET US</a></div>
+            
+        </div>
+
+    </section>
+
+    <i class="fa fa-bars hamburg" onclick="hamburg()"></i>
+    <div class="sideNav" id="sideNav">
+    <nav>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="#head">RETURN TOP</a></li>
+            <li><a href="#container">STUCK</a></li>
+            <li><a href="#footer">MEET US</a></li>
+            <i class="fa fa-xmark cancel" onclick="cancel()"></i>
+        </ul>
+    </nav>
+    </div>
+
+    <div class="whatsapp">
+        <a href="https://wa.me/2348091126085" target="_blank"><i class="fab fa-whatsapp"></i>WhatsApp Us</a>
+    </div>
+    <div class="head" id="head">
+        <img src="IMAGES/logo2.jpeg" height="50px" class="logo1" alt="logo">
+    <div class="header">
+        <div class="text">
+        <h1 style="text-align: center;">Ojalawa Fresh Market</h1>
+        <p style="text-align: center; color: #fff; font-size: 20px; font-style: italic;">Home Of Groceries</p>
+        </div>
+        <img src="IMAGES/Market2.webp"height="200" alt="Market">
+    </div>
+</div>
+<div class="container" id="container">
+        
+    <div class="product">
+        <img src="IMAGES/bags-of-rice.jpg" height="150" alt="Rice">
+        <h2>Rice</h2>
+        <p class="price">$25.00</p>
+        <div class="rating" data-product="Rice>
+            <i class="fa fa-star" onclick="rateProduct('Rice', 2)"></i>
+            <i class="fa fa-star" onclick="rateProduct('Rice', 1)"></i>
+            <i class="fa fa-star" onclick="rateProduct('Rice', 2)"></i>
+            <i class="fa fa-star" onclick="rateProduct('Rice', 3)"></i>
+            <i class="fa fa-star" onclick="rateProduct('Rice', 4)"></i>
+            <i class="fa fa-star" onclick="rateProduct('Rice', 5)"></i>
+        </div>
+        <div class="btn">
+            <button class="cta-button"><a href="" style="background: orange;" onclick="chart()">ADD TO CART</a></button>
+            <button class="cta-button"><a href="https://wa.me/2348091126085" target="_blank">Buy Now</a></button>
+        </div>
+    </div>
+    
+    <div class="product">
+        <img src="IMAGES/rodo2.jpg" height="150" alt="Rice">
+        <h2>Pepper</h2>
+        <p class="price">$25.00</p>
+        <div class="rating" data-product="Perper>
+            <i class="fa fa-star" onclick="rateProduct('Rice', 1)"></i>
+            <i class="fa fa-star" onclick="rateProduct('Rice', 2)"></i>
+            <i class="fa fa-star" onclick="rateProduct('Rice', 3)"></i>
+            <i class="fa fa-star" onclick="rateProduct('Rice', 4)"></i>
+            <i class="fa fa-star" onclick="rateProduct('Rice', 5)"></i>
+        </div>
+        <div class="btn">
+            <button class="cta-button"><a href="" style="background: orange;" onclick="chart()">ADD TO CART</a></button>
+            <button class="cta-button"><a href="https://wa.me/2348091126085" target="_blank">Buy Now</a></button>
+        </div>
+    </div>
+    
+    <div class="product">
+        <img src="IMAGES/tomato2.jpg" height="150" alt="Tomatoes">
+        <h2>Tomatoes</h2>
+        <p class="price">$15.00</p>
+        <div class="rating" data-product="Rice">
+            <i class="fa fa-star" onclick="rateProduct('Tomatoes', 1)"></i>
+            <i class="fa fa-star" onclick="rateProduct('Tomatoes', 2)"></i>
+            <i class="fa fa-star" onclick="rateProduct('Tomatoes', 3)"></i>
+            <i class="fa fa-star" onclick="rateProduct('Tomatoes', 4)"></i>
+            <i class="fa fa-star" onclick="rateProduct('Tomatoes', 5)"></i>
+        </div>
+        <div class="btn">
+            <button class="cta-button"><a href="" style="background: orange;" onclick="chart()">ADD TO CART</a></button>
+            <button class="cta-button"><a href="https://wa.me/2348091126085" target="_blank">Buy Now</a></button>
+        </div>
+    </div>
+    
+    <div class="product">
+        <img src="IMAGES/potato.jpg" height="150" alt="Potatoes">
+        <h2>Potatoes</h2>
+        <p class="price">$20.00</p>
+        <div class="rating" data-product="Rice">
+            <i class="fa fa-star" onclick="rateProduct('Potatoes', 1)"></i>
+            <i class="fa fa-star" onclick="rateProduct('Potatoes', 2)"></i>
+            <i class="fa fa-star" onclick="rateProduct('Potatoes', 3)"></i>
+            <i class="fa fa-star" onclick="rateProduct('Potatoes', 4)"></i>
+            <i class="fa fa-star" onclick="rateProduct('Potatoes', 5)"></i>
+        </div>
+        <div class="btn">
+            <button class="cta-button"><a href="" style="background: orange;" onclick="chart()">ADD TO CART</a></button>
+            <button class="cta-button"><a href="https://wa.me/2348091126085" target="_blank">Buy Now</a></button>
+        </div>
+    </div>
+
+    <div class="product">
+        <img src="IMAGES/fruits.jpg" height="150" alt="Rice">
+        <h2>fruits</h2>
+        <p class="price">$25.00</p>
+        <div class="rating" data-product="Rice">
+            <i class="fa fa-star" onclick="rateProduct('Rice', 1)"></i>
+            <i class="fa fa-star" onclick="rateProduct('Rice', 2)"></i>
+            <i class="fa fa-star" onclick="rateProduct('Rice', 3)"></i>
+            <i class="fa fa-star" onclick="rateProduct('Rice', 4)"></i>
+            <i class="fa fa-star" onclick="rateProduct('Rice', 5)"></i>
+        </div>
+        <div class="btn">
+            <button class="cta-button"><a href="" style="background: orange;" onclick="chart()">ADD TO CART</a></button>
+            <button class="cta-button"><a href="https://wa.me/2348091126085" target="_blank">Buy Now</a></button>
+        </div>
+    </div>
+    
+    <div class="product">
+        <img src="IMAGES/yam.jpg" height="150" alt="Rice">
+        <h2>Yam</h2>
+        <p class="price">$25.00</p>
+        <div class="rating" data-product="Rice">
+            <i class="fa fa-star" onclick="rateProduct('Rice', 1)"></i>
+            <i class="fa fa-star" onclick="rateProduct('Rice', 2)"></i>
+            <i class="fa fa-star" onclick="rateProduct('Rice', 3)"></i>
+            <i class="fa fa-star" onclick="rateProduct('Rice', 4)"></i>
+            <i class="fa fa-star" onclick="rateProduct('Rice', 5)"></i>
+        </div>
+        <div class="btn">
+            <button class="cta-button"><a href="" style="background: orange;" onclick="chart()">ADD TO CART</a></button>
+            <button class="cta-button"><a href="https://wa.me/2348091126085" target="_blank">Buy Now</a></button>
+        </div>
+    </div>
+
+    <div class="product">
+        <img src="IMAGES/Beans.jpg" height="150" alt="Rice">
+        <h2>Beans</h2>
+        <p class="price">$25.00</p>
+        <div class="rating" data-product="Rice">
+            <i class="fa fa-star" onclick="rateProduct('Rice', 1)"></i>
+            <i class="fa fa-star" onclick="rateProduct('Rice', 2)"></i>
+            <i class="fa fa-star" onclick="rateProduct('Rice', 3)"></i>
+            <i class="fa fa-star" onclick="rateProduct('Rice', 4)"></i>
+            <i class="fa fa-star" onclick="rateProduct('Rice', 5)"></i>
+        </div>
+        <div class="btn">
+            <button class="cta-button"><a href="" style="background: orange;" onclick="chart()">ADD TO CART</a></button>
+            <button class="cta-button"><a href="https://wa.me/2348091126085" target="_blank">Buy Now</a></button>
+        </div>
+    </div>
+    
+    <div class="product">
+        <img src="IMAGES/garri.jpg" height="150" alt="Rice">
+        <h2>Garri</h2>
+        <p class="price">$25.00</p>
+        <div class="rating" data-product="Rice">
+            <i class="fa fa-star" onclick="rateProduct('Rice', 1)"></i>
+            <i class="fa fa-star" onclick="rateProduct('Rice', 2)"></i>
+            <i class="fa fa-star" onclick="rateProduct('Rice', 3)"></i>
+            <i class="fa fa-star" onclick="rateProduct('Rice', 4)"></i>
+            <i class="fa fa-star" onclick="rateProduct('Rice', 5)"></i>
+        </div>
+        <div class="btn">
+            <button class="cta-button"><a href="" style="background: orange;" onclick="chart()">ADD TO CART</a></button>
+            <button class="cta-button"><a href="https://wa.me/2348091126085" target="_blank">Buy Now</a></button>
+        </div>
+    </div>
+    
+    <div class="product">
+        <img src="IMAGES/frozen.jpg" height="150" alt="Rice">
+        <h2>Meats</h2>
+        <p class="price">$55.00</p>
+        <div class="rating" data-product="Rice">
+            <i class="fa fa-star" onclick="rateProduct('Rice', 1)"></i>
+            <i class="fa fa-star" onclick="rateProduct('Rice', 2)"></i>
+            <i class="fa fa-star" onclick="rateProduct('Rice', 3)"></i>
+            <i class="fa fa-star" onclick="rateProduct('Rice', 4)"></i>
+            <i class="fa fa-star" onclick="rateProduct('Rice', 5)"></i>
+        </div>
+        <div class="btn">
+            <button class="cta-button"><a href="" style="background: orange;" onclick="chart()">ADD TO CART</a></button>
+            <button class="cta-button"><a href="https://wa.me/2348091126085" target="_blank">Buy Now</a></button>
+        </div>
+    </div>
+    
+    <div class="product">
+        <img src="IMAGES/Palm oil.jpg" height="150" alt="Rice">
+        <h2>Palm Oil</h2>
+        <p class="price">$230.00</p>
+        <div class="rating" data-product="Rice">
+            <i class="fa fa-star" onclick="rateProduct('Rice', 1)"></i>
+            <i class="fa fa-star" onclick="rateProduct('Rice', 2)"></i>
+            <i class="fa fa-star" onclick="rateProduct('Rice', 3)"></i>
+            <i class="fa fa-star" onclick="rateProduct('Rice', 4)"></i>
+            <i class="fa fa-star" onclick="rateProduct('Rice', 5)"></i>
+        </div>
+        <div class="btn">
+            <button class="cta-button"><a href="" style="background: orange;" onclick="chart()">ADD TO CART</a></button>
+            <button class="cta-button"><a href="https://wa.me/2348091126085" target="_blank">Buy Now</a></button>
+        </div>
+    </div>
+    <div class="product">
+        <img src="IMAGES/Oil.jfif" height="150" alt="Rice">
+        <h2>Oil</h2>
+        <p class="price">$20.00</p>
+        <div class="rating" data-product="Rice">
+            <i class="fa fa-star" onclick="rateProduct('Rice', 1)"></i>
+            <i class="fa fa-star" onclick="rateProduct('Rice', 2)"></i>
+            <i class="fa fa-star" onclick="rateProduct('Rice', 3)"></i>
+            <i class="fa fa-star" onclick="rateProduct('Rice', 4)"></i>
+            <i class="fa fa-star" onclick="rateProduct('Rice', 5)"></i>
+        </div>
+        <div class="btn">
+            <button class="cta-button"><a href="" style="background: orange;" onclick="chart()">ADD TO CART</a></button>
+            <button class="cta-button"><a href="https://wa.me/2348091126085" target="_blank">Buy Now</a></button>
+        </div>
+    </div>
+    
+    <div class="product">
+        <img src="IMAGES/Vegetables.jpg" height="150" alt="Rice">
+        <h2>Vegetables</h2>
+        <p class="price">$25.00</p>
+        <div class="rating" data-product="Rice">
+            <i class="fa fa-star" onclick="rateProduct('Rice', 1)"></i>
+            <i class="fa fa-star" onclick="rateProduct('Rice', 2)"></i>
+            <i class="fa fa-star" onclick="rateProduct('Rice', 3)"></i>
+            <i class="fa fa-star" onclick="rateProduct('Rice', 4)"></i>
+            <i class="fa fa-star" onclick="rateProduct('Rice', 5)"></i>
+        </div>
+        <div class="btn">
+            <button class="cta-button"><a href="" style="background: orange;" onclick="chart()">ADD TO CART</a></button>
+            <button class="cta-button"><a href="https://wa.me/2348091126085" target="_blank">Buy Now</a></button>
+        </div>
+    </div>
+    
+    
+
+</div>
+    <section id="footer">
+        <img src="IMAGES/fruits.jpg" height="350" class="footer-img">
+        <div class="title-text">
+            <p>CONTACT</p>
+            <H1>Get In Touch With Us Today</H1>
+        </div>
+    
+        <div class="footer-row">
+            <div class="footer-left">
+                <h1>Opening Hours</h1>
+                <p><i class="fa-solid fa-clock"></i>Monday to Friday - 8am to 8pm</p>
+                <p><i class="fa-solid fa-clock"></i>Saturday and Sunday - 8am to 9pm</p>
+            </div>
+            <div class="footer-right">
+                <h1>Get In Touch</h1>
+                <p><i class="fa fa-map-marker"></i></p>
+                <p><i class="fa fa-paper-plane"></i> ojalawa@gmail.com</p>
+                <p><i class="fa fa-phone"></i> +234(0)8091126085</p>
+            </div>
+        </div>
+    
+        <div class="social-links">
+            <a href="https://www.facebook.com/ojalawa" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://twitter.com/ojalawa" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://wa.me/2348091126085" target="_blank"><i class="fab fa-telegram"></i></a>
+            <a href="https://www.instagram.com/ojalawa" target="_blank">
+                <i class="fab fa-instagram"></i>
+              </a>
+              
+            <p>copyright Ojalawa: home of ggroceries"</p>
+        </div>
+    </section>
+    
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="shop.js"></script>
+    </body>
+    </html>
+</body>
+</html>
